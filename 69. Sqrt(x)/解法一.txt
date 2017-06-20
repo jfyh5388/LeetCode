@@ -1,0 +1,8 @@
+class Solution {
+public:
+    int mySqrt(int x) {
+        long long i=0,xl=x;
+        for(;i*i<=xl;i++);
+        return i-1;
+    }
+};

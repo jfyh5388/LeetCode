@@ -1,0 +1,26 @@
+﻿生成启动时间为 2016/9/9 10:50:10。
+     1>项目“U:\Softwares\Visual Studio 2013\projects\LeetCode\38. Count and Say_e\38. Count and Say_e\38. Count and Say_e.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\38. Count and Say_e.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "38. Count and Say_e.cpp"
+         38. Count and Say_e.cpp
+     1>u:\softwares\visual studio 2013\projects\leetcode\38. count and say_e\38. count and say_e\38. count and say_e.cpp(28): warning C4018: “<”: 有符号/无符号不匹配
+     1>u:\softwares\visual studio 2013\projects\leetcode\38. count and say_e\38. count and say_e\38. count and say_e.cpp(46): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>u:\softwares\visual studio 2013\projects\leetcode\38. count and say_e\38. count and say_e\38. count and say_e.cpp(55): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"U:\Softwares\Visual Studio 2013\projects\LeetCode\38. Count and Say_e\Debug\38. Count and Say_e.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\38. Count and Say_e.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"U:\Softwares\Visual Studio 2013\projects\LeetCode\38. Count and Say_e\Debug\38. Count and Say_e.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"U:\Softwares\Visual Studio 2013\projects\LeetCode\38. Count and Say_e\Debug\38. Count and Say_e.lib" /MACHINE:X86 "Debug\38. Count and Say_e.obj"
+         LINK : 没有找到 U:\Softwares\Visual Studio 2013\projects\LeetCode\38. Count and Say_e\Debug\38. Count and Say_e.exe 或上一个增量链接没有生成它；正在执行完全链接
+         38. Count and Say_e.vcxproj -> U:\Softwares\Visual Studio 2013\projects\LeetCode\38. Count and Say_e\Debug\38. Count and Say_e.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"U:\Softwares\Visual Studio 2013\projects\LeetCode\38. Count and Say_e\Debug\38. Count and Say_e.exe;#1" /manifest "Debug\38. Count and Say_e.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Debug\38. Count and Say_e.unsuccessfulbuild”。
+         正在对“Debug\38. Count and Say_e.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“U:\Softwares\Visual Studio 2013\projects\LeetCode\38. Count and Say_e\38. Count and Say_e\38. Count and Say_e.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.75

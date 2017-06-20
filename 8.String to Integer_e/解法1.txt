@@ -1,0 +1,55 @@
+int myAtoi(char* str) {
+    int i;
+    long long int ans=0;
+    int sign=1;
+	int first=1;
+	int sign_already=0;
+    for(i=0;str[i]!='\0';i++)
+    {
+        if((str[i]!='-')&&(str[i]!='+')&&(str[i]>'9'||str[i]<'0')&&str[i]!=' ')
+        break;
+        else if(str[i]==' '&&first==0)break;
+        else if(str[i]=='-')
+		{
+			if(first==1)
+            {
+				sign=-1;
+				first=0;
+			}
+			else if(first==0)
+				break;
+		}
+		else if(str[i]=='+')
+		{
+			if(first==1)
+			{
+				sign=1;
+				first=0;
+			}
+			else if(first==0)
+				break;
+		}
+        else if(str[i]>='0'&&str[i]<='9')
+		{
+            ans=ans*10+str[i]-'0';
+			first=0;
+			if(sign==+1&&ans>(long long int)0x7fffffff)
+			{
+				ans=0x7fffffff;
+				break;
+			}
+			if(sign==-1&&(-ans<(long long int)0xffffffff80000000))
+			{
+				ans=0x80000000;
+				break;
+			}
+		}
+    }
+    if(sign==-1)
+    ans=-ans;
+	/*if(ans>(long long int)0x7fffffff)
+		ans=0x7fffffff;
+	if(ans<(long long int)0xffffffff80000000)
+		ans=0x80000000;*/
+    return (int)ans;
+}

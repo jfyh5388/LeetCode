@@ -1,0 +1,33 @@
+#include<stdio.h>
+bool isPalindrome(int x) 
+{
+    int len=0,i,m=0,n=0,di=1,mid=x;
+    if(x<0)
+    return false;
+    else
+    {
+        for(;mid;mid=mid/10,len++);
+        if(len==1) return true;
+        while(len-1)
+        {
+            di=di*10;
+            len--;
+        }
+        m=x%10;
+        n=x/di;
+        if(m!=n)return false;
+        else
+        {
+            x=x%di/10;
+            if(x==0)return true;
+            else
+            return isPalindrome(x);
+        }
+    }    
+}
+void main()
+{
+	int a=123321;
+	printf("%s",isPalindrome(a)==true?"ture":"false");
+
+}

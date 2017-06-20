@@ -1,0 +1,23 @@
+﻿生成启动时间为 2016/8/2 9:45:15。
+项目“F:\Softwares\Visual Studio 2013\projects\LeetCode\Reverse Interger\Reverse Interger\Reverse Interger.vcxproj”在节点 2 上(build 个目标)。
+InitializeBuildStatus:
+  正在创建“Debug\Reverse Interger.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt "Reverse Interger.c"
+  Reverse Interger.c
+f:\softwares\visual studio 2013\projects\leetcode\reverse interger\reverse interger\reverse interger.c(10): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+f:\softwares\visual studio 2013\projects\leetcode\reverse interger\reverse interger\reverse interger.c(4): warning C4101: “i”: 未引用的局部变量
+Link:
+  D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Softwares\Visual Studio 2013\projects\LeetCode\Reverse Interger\Debug\Reverse Interger.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Reverse Interger.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Softwares\Visual Studio 2013\projects\LeetCode\Reverse Interger\Debug\Reverse Interger.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Softwares\Visual Studio 2013\projects\LeetCode\Reverse Interger\Debug\Reverse Interger.lib" /MACHINE:X86 "Debug\Reverse Interger.obj"
+  LINK : 没有找到 F:\Softwares\Visual Studio 2013\projects\LeetCode\Reverse Interger\Debug\Reverse Interger.exe 或上一个增量链接没有生成它；正在执行完全链接
+  Reverse Interger.vcxproj -> F:\Softwares\Visual Studio 2013\projects\LeetCode\Reverse Interger\Debug\Reverse Interger.exe
+Manifest:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\Softwares\Visual Studio 2013\projects\LeetCode\Reverse Interger\Debug\Reverse Interger.exe;#1" /manifest "Debug\Reverse Interger.exe.intermediate.manifest"
+FinalizeBuildStatus:
+  正在删除文件“Debug\Reverse Interger.unsuccessfulbuild”。
+  正在对“Debug\Reverse Interger.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\Softwares\Visual Studio 2013\projects\LeetCode\Reverse Interger\Reverse Interger\Reverse Interger.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.95

@@ -1,0 +1,26 @@
+#include<iostream>
+#include<string>
+using namespace std;
+class Solution {
+public:
+    int findNthDigit(int n) {
+		char str_c[100]={0};
+		string bigstr="";
+        string str="";
+        int num=1;
+        while(bigstr.size()<n)
+        {
+			sprintf(str_c,"%d",num);
+			str=str_c;
+            bigstr=bigstr+str;
+            num++;
+        }
+        return bigstr[n-1]-'0';        
+    }
+};
+int main()
+{
+	Solution so;
+	cout<<so.findNthDigit(11)<<endl;
+	return 0;
+}

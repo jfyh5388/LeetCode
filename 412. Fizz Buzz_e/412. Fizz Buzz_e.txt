@@ -1,0 +1,26 @@
+class Solution {
+public:
+    vector<string> fizzBuzz(int n) {
+        int i=1;
+        vector<string> vectorstr;
+        string vestr;
+        char str[100]={0};
+        for(;i<=n;i++)
+        {
+            if(i%3==0&&i%5==0)
+                vestr="FizzBuzz";
+            else if(i%3==0)
+                vestr="Fizz";
+            else if(i%5==0)
+                vestr="Buzz";
+            else
+            {
+                //sprintf( str, "%d", i );         // 将字符串转换成整数   i = 15
+                vestr=to_string(i);//str;
+            }
+             vectorstr.push_back(vestr);
+                //cout<<"\""<<str<<"\""<<endl;
+        }
+        return vectorstr;
+    }
+};

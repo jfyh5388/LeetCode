@@ -1,0 +1,34 @@
+char* convertToTitle(int n) {
+    int count=0;
+    int i=0;
+    int j=0;
+    int len=0;
+    int m=0;
+    int temp=0;
+    char ch=0;
+    char ans[1000]={0};
+    while(n)
+    {
+        ch=n%26;
+        n=n/26;
+        ans[i++]=ch+'A'-1;
+    }
+    for(j=0;j<i-1;j++)
+    {
+        if(ans[j]=='A'-1)
+        {
+            ans[j]=26+'A'-1;
+            ans[j+1]=ans[j+1]-1;
+        }
+    }
+    if(ans[j]=='A'-1)
+        ans[j]=0;
+    len=strlen(ans);
+    for(m=0;m<len/2;m++)
+    {
+        temp=ans[m];
+        ans[m]=ans[len-m-1];
+        ans[len-m-1]=temp;
+    }
+    return ans;
+}

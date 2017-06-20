@@ -1,0 +1,28 @@
+#include<vector>
+#include<iostream>
+using namespace std;
+class NumArray {
+public:
+    vector<int> ar;
+    NumArray(vector<int> &nums) {
+        ar=nums;
+    }   
+    int sumRange(int i, int j) {
+        int sum=0;
+        for(;i<=j;i++)
+        {
+            sum=sum+ar[i];
+        }
+        return sum;
+    }
+};
+int main()
+{
+	int num[6]={-2, 0, 3, -5, 2, -1};
+	vector<int> num_ve(num,num+6);
+	NumArray numar(num_ve);
+	cout<<numar.sumRange(0,2)<<endl;
+	cout<<numar.sumRange(2,5)<<endl;
+	cout<<numar.sumRange(0,5)<<endl;
+	return 0;
+}

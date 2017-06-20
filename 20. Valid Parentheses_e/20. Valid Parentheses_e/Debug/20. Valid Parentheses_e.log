@@ -1,0 +1,28 @@
+﻿生成启动时间为 2016/8/4 14:41:31。
+项目“F:\Softwares\Visual Studio 2013\projects\LeetCode\20. Valid Parentheses_e\20. Valid Parentheses_e\20. Valid Parentheses_e.vcxproj”在节点 2 上(build 个目标)。
+InitializeBuildStatus:
+  正在创建“Debug\20. Valid Parentheses_e.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "Valid Parentheses.cpp"
+  Valid Parentheses.cpp
+f:\softwares\visual studio 2013\projects\leetcode\20. valid parentheses_e\20. valid parentheses_e\valid parentheses.cpp(10): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+f:\softwares\visual studio 2013\projects\leetcode\20. valid parentheses_e\20. valid parentheses_e\valid parentheses.cpp(22): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\program files\microsoft visual studio 10.0\vc\include\string.h(188) : 参见“strncpy”的声明
+f:\softwares\visual studio 2013\projects\leetcode\20. valid parentheses_e\20. valid parentheses_e\valid parentheses.cpp(23): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\program files\microsoft visual studio 10.0\vc\include\string.h(188) : 参见“strncpy”的声明
+f:\softwares\visual studio 2013\projects\leetcode\20. valid parentheses_e\20. valid parentheses_e\valid parentheses.cpp(24): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+f:\softwares\visual studio 2013\projects\leetcode\20. valid parentheses_e\20. valid parentheses_e\valid parentheses.cpp(25): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          d:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+Link:
+  D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Softwares\Visual Studio 2013\projects\LeetCode\20. Valid Parentheses_e\Debug\20. Valid Parentheses_e.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\20. Valid Parentheses_e.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Softwares\Visual Studio 2013\projects\LeetCode\20. Valid Parentheses_e\Debug\20. Valid Parentheses_e.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Softwares\Visual Studio 2013\projects\LeetCode\20. Valid Parentheses_e\Debug\20. Valid Parentheses_e.lib" /MACHINE:X86 "Debug\Valid Parentheses.obj"
+  "Debug\Valid Parentheses_2.obj"
+  LINK : 没有找到 F:\Softwares\Visual Studio 2013\projects\LeetCode\20. Valid Parentheses_e\Debug\20. Valid Parentheses_e.exe 或上一个增量链接没有生成它；正在执行完全链接
+Valid Parentheses_2.obj : error LNK2005: _main 已经在 Valid Parentheses.obj 中定义
+F:\Softwares\Visual Studio 2013\projects\LeetCode\20. Valid Parentheses_e\Debug\20. Valid Parentheses_e.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
+已完成生成项目“F:\Softwares\Visual Studio 2013\projects\LeetCode\20. Valid Parentheses_e\20. Valid Parentheses_e\20. Valid Parentheses_e.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.43

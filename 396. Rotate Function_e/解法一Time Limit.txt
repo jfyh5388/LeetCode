@@ -1,0 +1,26 @@
+class Solution {
+public:
+    int maxRotateFunction(vector<int>& A) {
+        vector<int> b(A);
+        b.insert(b.begin(),A.begin(),A.end());
+        int len=A.size();
+        int max=0;
+        int sum=0;
+        int i=0,mul=0;
+        for(mul=0;i<len;i++)
+        {
+            while(mul<len)
+            {
+                sum=sum+mul*b[i+mul];
+                mul++;
+            }
+            if(i==0)
+                max=sum;
+            else if(sum>max)
+                max=sum;
+            sum=0;    
+            mul=0;
+        }
+        return max;
+    }
+};

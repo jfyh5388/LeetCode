@@ -1,0 +1,24 @@
+﻿生成启动时间为 2016/8/4 10:18:43。
+项目“F:\Softwares\Visual Studio 2013\projects\LeetCode\14.Longest Common Prefix_e\14.Longest Common Prefix_e\14.Longest Common Prefix_e.vcxproj”在节点 2 上(build 个目标)。
+InitializeBuildStatus:
+  正在对“Debug\14.Longest Common Prefix_e.unsuccessfulbuild”执行 Touch 任务。
+ClCompile:
+  D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt "Longest Common Prefix.c"
+  Longest Common Prefix.c
+f:\softwares\visual studio 2013\projects\leetcode\14.longest common prefix_e\14.longest common prefix_e\longest common prefix.c(7): warning C4172: 返回局部变量或临时变量的地址
+f:\softwares\visual studio 2013\projects\leetcode\14.longest common prefix_e\14.longest common prefix_e\longest common prefix.c(15): warning C4172: 返回局部变量或临时变量的地址
+f:\softwares\visual studio 2013\projects\leetcode\14.longest common prefix_e\14.longest common prefix_e\longest common prefix.c(20): warning C4172: 返回局部变量或临时变量的地址
+Link:
+  D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Softwares\Visual Studio 2013\projects\LeetCode\14.Longest Common Prefix_e\Debug\14.Longest Common Prefix_e.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\14.Longest Common Prefix_e.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Softwares\Visual Studio 2013\projects\LeetCode\14.Longest Common Prefix_e\Debug\14.Longest Common Prefix_e.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Softwares\Visual Studio 2013\projects\LeetCode\14.Longest Common Prefix_e\Debug\14.Longest Common Prefix_e.lib" /MACHINE:X86 "Debug\Longest Common Prefix.obj"
+  LINK : 没有找到 F:\Softwares\Visual Studio 2013\projects\LeetCode\14.Longest Common Prefix_e\Debug\14.Longest Common Prefix_e.exe 或上一个增量链接没有生成它；正在执行完全链接
+  14.Longest Common Prefix_e.vcxproj -> F:\Softwares\Visual Studio 2013\projects\LeetCode\14.Longest Common Prefix_e\Debug\14.Longest Common Prefix_e.exe
+Manifest:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\Softwares\Visual Studio 2013\projects\LeetCode\14.Longest Common Prefix_e\Debug\14.Longest Common Prefix_e.exe;#1" /manifest "Debug\14.Longest Common Prefix_e.exe.intermediate.manifest"
+FinalizeBuildStatus:
+  正在删除文件“Debug\14.Longest Common Prefix_e.unsuccessfulbuild”。
+  正在对“Debug\14.Longest Common Prefix_e.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\Softwares\Visual Studio 2013\projects\LeetCode\14.Longest Common Prefix_e\14.Longest Common Prefix_e\14.Longest Common Prefix_e.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.13

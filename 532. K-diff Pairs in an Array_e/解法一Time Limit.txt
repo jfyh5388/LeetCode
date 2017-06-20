@@ -1,0 +1,57 @@
+#include <iostream>
+#include <set>
+#include <vector>
+using namespace std;
+class Solution {
+public:
+    int ab_di(int num1,int num2,int &little,int &large)
+    {
+        if(num1>num2)
+		{
+			large=num1;
+			little=num2;
+		}
+		else
+		{
+			large=num2;
+			little=num1;
+		}
+		return large-little;
+    }
+    int findPairs(vector<int>& nums, int k) 
+    {
+        int ans=0;
+        int i=0,j=0;
+		int small=0,big=0;
+		int abs=0;
+        int len=nums.size();
+        set<pair<int,int>> se;
+        for(i=0;i<len-1;i++)
+            for(j=i+1;j<len;j++)
+            {
+                if(ab_di(nums[i],nums[j],small,big)==k)
+                {
+                    auto it=se.find(make_pair(small,big));
+                    if(it==se.end())
+                    {
+                        ans++;
+                        se.insert(make_pair(small,big));
+                    }
+                }
+            }
+        return ans;    
+    }
+};
+int main()
+{
+	vector<int> a;
+	int k=1;
+	Solution so;
+	a.push_back(1);
+	a.push_back(1);
+	a.push_back(1);
+	a.push_back(2);
+	a.push_back(1);
+	cout<<so.findPairs(a,k)<<endl;
+	return 0;
+}
